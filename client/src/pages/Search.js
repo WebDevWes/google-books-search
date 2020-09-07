@@ -47,7 +47,7 @@ function Books() {
     return (
       <Container fluid>
         <Row>
-          <Col size="md-6">
+          <Col size="md-12">
             <Jumbotron>
               <h1>What Book do you want to look up?</h1>
             </Jumbotron>
