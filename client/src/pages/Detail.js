@@ -34,6 +34,9 @@ function Detail(props) {
               <p>
                 {book.synopsis}
               </p>
+              <img src={book.image} />
+              <br />
+              <a href={book.link}>{book.title}</a>
             </article>
           </Col>
         </Row>
