@@ -55,7 +55,7 @@ function Search() {
                   <TableData
                     key={book.etag}
                     href={book.volumeInfo.previewLink}
-                    thumbnail={book.volumeInfo.imageLinks.thumbnail}
+                    thumbnail={book.volumeInfo.imageLinks.thumbnail !== null ? book.volumeInfo.imageLinks.thumbnail : "https://via.placeholder.com/150"}
                     title={book.volumeInfo.title}
                     author={book.volumeInfo.authors}
                     description={book.volumeInfo.description}

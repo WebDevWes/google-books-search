@@ -38,14 +38,7 @@ export function TableData(props) {
     <tr>
       <td>
         <a href={props.href}>
-          <img
-            src={
-              props.thumbnail
-                ? props.thumbnail
-                : "https://via.placeholder.com/150"
-            }
-            alt={props.title}
-          />
+          <img src={props.thumbnail} alt={props.title} />
         </a>
       </td>
       <td>{props.title}</td>
