@@ -19,6 +19,6 @@ export default {
   },
   // Search a book using Google Books API
   searchBooks: function(searchTerm) {
-    return axios.get("https://www.googleapis.com/books/v1/volumes?q=" + searchTerm)
+    return axios.get("https://www.googleapis.com/books/v1/volumes?q=" + searchTerm + "&maxResults=40")
   }
 };

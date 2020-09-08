@@ -59,7 +59,7 @@ function Books() {
         <Row>
           <Col size="md-6">
             <Jumbotron>
-              <h1>What Books Should I Read?</h1>
+              <h1>Add Books to My Reading List</h1>
             </Jumbotron>
             <form>
               <Input
@@ -87,7 +87,7 @@ function Books() {
           </Col>
           <Col size="md-6 sm-12">
             <Jumbotron>
-              <h1>Books On My List</h1>
+              <h1>My Reading List</h1>
             </Jumbotron>
             {books.length ? (
               <List>
