@@ -55,10 +55,22 @@ function Search() {
                   <TableData
                     key={book.etag}
                     href={book.volumeInfo.previewLink}
-                    thumbnail={!book.volumeInfo.imageLinks ? "https://via.placeholder.com/150" : book.volumeInfo.imageLinks.thumbnail}
+                    thumbnail={
+                      !book.volumeInfo.imageLinks
+                        ? "https://via.placeholder.com/150"
+                        : book.volumeInfo.imageLinks.thumbnail
+                    }
                     title={book.volumeInfo.title}
-                    author={book.volumeInfo.authors}
-                    description={book.volumeInfo.description}
+                    author={
+                      !book.volumeInfo.authors
+                        ? ["No Author Available"]
+                        : book.volumeInfo.authors
+                    }
+                    description={
+                      !book.volumeInfo.description
+                        ? "No Synopsis Available"
+                        : book.volumeInfo.description
+                    }
                   />
                 ))}
               </tbody>
