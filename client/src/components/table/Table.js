@@ -23,9 +23,10 @@ export function TableData(props) {
     // console.log("synopsis", event.description);
     // console.log("thumbnail", event.thumbnail);
     // console.log("href", event.href);
+
     API.saveBook({
       title: event.title,
-      author: event.author[0],
+      author: event.author.toString(),
       synopsis: event.description,
       image: event.thumbnail,
       link: event.href,
