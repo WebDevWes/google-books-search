@@ -28,6 +28,7 @@ Contributor: Wesley Tran
 - HTML
 - CSS
 - Javascript
+- ReactJS
 - NodeJS
   - Express
 - MongoDB
