@@ -3,9 +3,9 @@
 ### Deployed app on Heroku 
 https://secure-ravine-38448.herokuapp.com/
 
-### Github Username: Wesaboo
+### Github Username: WebDevWes
 
-Github Email Address: wesaboo@gmail.com
+Github Email Address: WebDevWes89@gmail.com
 
 ## Project/Repo Title: Google Books Search
 
@@ -28,6 +28,7 @@ Contributor: Wesley Tran
 - HTML
 - CSS
 - Javascript
+- ReactJS
 - NodeJS
   - Express
 - MongoDB
