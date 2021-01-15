@@ -1,6 +1,7 @@
 import React from "react";
 import API from "../../utils/API";
 
+// Table Header
 export function TableHead() {
   return (
     <thead className="thead-dark">
@@ -15,15 +16,9 @@ export function TableHead() {
   );
 }
 
+// function call to save book to DB
 export function TableData(props) {
   function saveThis(event) {
-    //event.preventDefault();
-    // console.log("title", event.title);
-    // console.log("author", event.author[0]);
-    // console.log("synopsis", event.description);
-    // console.log("thumbnail", event.thumbnail);
-    // console.log("href", event.href);
-
     API.saveBook({
       title: event.title,
       author: event.author.toString(),

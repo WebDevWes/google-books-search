@@ -2,6 +2,7 @@ import React from "react";
 import { Col, Row, Container } from "../components/Grid";
 import Jumbotron from "../components/Jumbotron";
 
+// Page load when no match is found
 function NoMatch() {
   return (
     <Container fluid>

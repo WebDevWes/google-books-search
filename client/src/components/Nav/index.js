@@ -1,12 +1,13 @@
 import React from "react";
 
+// Navbar component
 function Nav() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
       <a className="navbar-brand" href="/">
         Google Books Search
       </a>
-      <a className="nav-link" style={{color: "blue"}} href="/search">
+      <a className="nav-link" style={{ color: "blue" }} href="/search">
         Search
       </a>
     </nav>
